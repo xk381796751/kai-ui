@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <Kai />
+	<img alt="Vue logo" src="./assets/logo.png" />
+	<div>
+		导航栏 |
+		<router-link to="/">Kai</router-link>|
+		<router-link to="/xxx">Kai2</router-link>
+	</div>
+	<hr />
+	<router-view />
 </template>
 
 <script>
-import Kai from './components/Kai.vue'
-
 export default {
-  name: 'App',
-  components: {
-    Kai
-  }
-}
+	name: "App"
+};
 </script>
