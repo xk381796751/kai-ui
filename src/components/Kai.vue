@@ -1,5 +1,0 @@
-<template>
-	<div>
-		Kai111222
-	</div>
-</template>
